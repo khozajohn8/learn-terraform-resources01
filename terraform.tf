@@ -1,7 +1,7 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
-terraform {
+#terraform {
 
   /* Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
@@ -12,7 +12,7 @@ terraform {
   }
   */
 
-  required_providers {
+  /* required_providers {
     aws = {
       source  = "hashicorp/aws"
       version = "~> 4.15.0"
@@ -24,3 +24,4 @@ terraform {
 
   required_version = "~> 1.4.6"
 }
+*/
